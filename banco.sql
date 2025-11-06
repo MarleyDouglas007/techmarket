@@ -1,3 +1,5 @@
+
+
 CREATE DATABASE techmarket;
 USE techmarket;
 
@@ -8,6 +10,6 @@ CREATE TABLE produtos (
 );
 
 INSERT INTO produtos (nome, preco) VALUES
-('Notebook Dell', 4500.00),
-('Smartphone Samsung', 2500.00),
-('Headset Gamer', 350.00);
+('kit Ryzer 7 5600G', 2500.00),
+('Luva de Boxe', 200.00),
+('Controle Xbox', 550.00);

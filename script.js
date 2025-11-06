@@ -1,8 +1,7 @@
-﻿// script.js - adiciona alguns produtos de exemplo e renderiza cards Bootstrap
-const produtos = [
-  { id: 1, nome: "Fone Bluetooth X", preco: "R$ 199,90", descricao: "Fone sem fio com ótima bateria." },
-  { id: 2, nome: "Smartwatch Pro", preco: "R$ 499,00", descricao: "Monitoramento de saúde e notificações." },
-  { id: 3, nome: "Teclado Mecânico", preco: "R$ 349,00", descricao: "Switches táteis e iluminação RGB." }
+﻿const produtos = [
+  { id: 1, nome: "Mouse Gamer", preco: "R$ 250,00", descricao: "Mouse sem fio com ótima Qualidade." },
+  { id: 2, nome: "Notebook Acer", preco: "R$ 5.500,00", descricao: "Ótimo Notebook para jogos." },
+  { id: 3, nome: "Caixinha de som", preco: "R$ 100,00", descricao: "Qualidade ótima." }
 ];
 
 function renderProdutos() {
@@ -27,10 +26,12 @@ function renderProdutos() {
 }
 
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
   renderProdutos();
 
-  // Adiciona evento de clique aos botões Comprar
+  // Adiciona evento de clique aos botões Comprar 
   document.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click", () => {
       alert("Produto adicionado ao carrinho!");
